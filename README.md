@@ -3,6 +3,11 @@ class HashTable:
     def _init_(self, size):  # ✅ Use double underscores here
         self.size = size
         self.table = [[] for _ in range(size)]
+Que5.Hashing..
+class HashTable:
+    def _init_(self, size):  # ✅ Use double underscores here
+        self.size = size
+        self.table = [[] for _ in range(size)]
 
     def hashFunc(self, key):
         return key % self.size
