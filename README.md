@@ -11,6 +11,12 @@ class HashTable:
 
     def hashFunc(self, key):
         return key % self.size
+        def hashFunc(self, key):
+        return key % self.sizedef hashFunc(self, key):
+        return key % self.sizedef hashFunc(self, key):
+        return key % self.sizedef hashFunc(self, key):
+        return key % self.sizedef hashFunc(self, key):
+        return key % self.size
 
     def insert(self, key, value):
         h = self.hashFunc(key)
